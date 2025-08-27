@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:archonit_crypto_app/data/api/coincap_api.dart';
-import 'package:archonit_crypto_app/data/interceptors/api_key_interceptor.dart';
+import 'package:crypto_app/data/api/coincap_api.dart';
+import 'package:crypto_app/data/interceptors/api_key_interceptor.dart';
 import 'package:dio/dio.dart';
 
 CoinCapApiClient setUpCoinCapApiClient(String apiKey) {

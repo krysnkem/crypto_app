@@ -1,12 +1,12 @@
 // ignore_for_file: avoid_print
 
-import 'package:archonit_crypto_app/logic/states/crypto_list_state.dart';
+import 'package:crypto_app/logic/states/crypto_list_state.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:archonit_crypto_app/core/secrets/api_key.dart';
-import 'package:archonit_crypto_app/data/setup_coin_cap_api_client.dart';
-import 'package:archonit_crypto_app/data/api/coincap_api_models.dart';
-import 'package:archonit_crypto_app/data/repository/coin_cap_repository/coin_cap_repository.dart';
-import 'package:archonit_crypto_app/logic/notifiers/crypto_list_notifier.dart';
+import 'package:crypto_app/core/secrets/api_key.dart';
+import 'package:crypto_app/data/setup_coin_cap_api_client.dart';
+import 'package:crypto_app/data/api/coincap_api_models.dart';
+import 'package:crypto_app/data/repository/coin_cap_repository/coin_cap_repository.dart';
+import 'package:crypto_app/logic/notifiers/crypto_list_notifier.dart';
 
 void main() {
   group('API Layer Tests', () {
@@ -28,19 +28,19 @@ void main() {
       final result = await repository.getAssets(
         const AssetsQuery(limit: 5, offset: 0),
       );
-      
+
       expect(result, isNotNull);
       print('API Result: $result');
     });
 
     test('ValueNotifier loads assets correctly', () async {
       expect(notifier.value, isA<CryptoListInitial>());
-      
+
       await notifier.loadAssets();
-      
+
       expect(notifier.value, isNot(isA<CryptoListInitial>()));
       print('Notifier state: ${notifier.value.runtimeType}');
-      
+
       if (notifier.value is CryptoListLoaded) {
         final loaded = notifier.value as CryptoListLoaded;
         print('Loaded ${loaded.cryptoList.length} assets');

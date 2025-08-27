@@ -86,9 +86,9 @@ This project showcases **three different state management approaches** for the s
 
 | Branch | State Management | Description | Status |
 |--------|------------------|-------------|--------|
-| [`main/vanilla`](https://github.com/krysnkem/archonit_crypto_app/tree/main/vanilla) | **ValueNotifier** | Baseline Flutter implementation | ✅ **Current** |
-| [`alt/riverpod`](https://github.com/krysnkem/archonit_crypto_app/tree/alt/riverpod) | **Riverpod** | Modern reactive state management | ✅ Complete |
-| [`alt/bloc-cubit`](https://github.com/krysnkem/archonit_crypto_app/tree/alt/bloc-cubit) | **BLoC Cubit** | Enterprise state management | ✅ Complete |
+| [`main/vanilla`](https://github.com/krysnkem/crypto_app/tree/main/vanilla) | **ValueNotifier** | Baseline Flutter implementation | ✅ **Current** |
+| [`alt/riverpod`](https://github.com/krysnkem/crypto_app/tree/alt/riverpod) | **Riverpod** | Modern reactive state management | ✅ Complete |
+| [`alt/bloc-cubit`](https://github.com/krysnkem/crypto_app/tree/alt/bloc-cubit) | **BLoC Cubit** | Enterprise state management | ✅ Complete |
 
 ### 🎯 **Why Multiple Implementations?**
 

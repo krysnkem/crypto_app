@@ -1,9 +1,9 @@
-import 'package:archonit_crypto_app/core/util/ui_constants.dart';
-import 'package:archonit_crypto_app/logic/models/crypto_asset.dart';
-import 'package:archonit_crypto_app/logic/notifiers/crypto_list_notifier.dart';
-import 'package:archonit_crypto_app/logic/states/crypto_list_state.dart';
-import 'package:archonit_crypto_app/ui/widget/asset_list_widget.dart';
-import 'package:archonit_crypto_app/ui/widget/error_state_widget.dart';
+import 'package:crypto_app/core/util/ui_constants.dart';
+import 'package:crypto_app/logic/models/crypto_asset.dart';
+import 'package:crypto_app/logic/notifiers/crypto_list_notifier.dart';
+import 'package:crypto_app/logic/states/crypto_list_state.dart';
+import 'package:crypto_app/ui/widget/asset_list_widget.dart';
+import 'package:crypto_app/ui/widget/error_state_widget.dart';
 import 'package:flutter/material.dart';
 
 class AssetListPage extends StatefulWidget {

@@ -1,14 +1,13 @@
-
-import 'package:archonit_crypto_app/core/secrets/api_key.dart';
-import 'package:archonit_crypto_app/core/util/color_generator.dart';
-import 'package:archonit_crypto_app/core/util/string_extenstion.dart';
-import 'package:archonit_crypto_app/data/api/coincap_api_models.dart';
-import 'package:archonit_crypto_app/data/repository/coin_cap_repository/coin_cap_repository.dart';
-import 'package:archonit_crypto_app/data/repository/coin_cap_repository/i_coin_cap_repository.dart';
-import 'package:archonit_crypto_app/data/repository/result.dart';
-import 'package:archonit_crypto_app/data/setup_coin_cap_api_client.dart';
-import 'package:archonit_crypto_app/logic/models/crypto_asset.dart';
-import 'package:archonit_crypto_app/logic/states/crypto_list_state.dart';
+import 'package:crypto_app/core/secrets/api_key.dart';
+import 'package:crypto_app/core/util/color_generator.dart';
+import 'package:crypto_app/core/util/string_extenstion.dart';
+import 'package:crypto_app/data/api/coincap_api_models.dart';
+import 'package:crypto_app/data/repository/coin_cap_repository/coin_cap_repository.dart';
+import 'package:crypto_app/data/repository/coin_cap_repository/i_coin_cap_repository.dart';
+import 'package:crypto_app/data/repository/result.dart';
+import 'package:crypto_app/data/setup_coin_cap_api_client.dart';
+import 'package:crypto_app/logic/models/crypto_asset.dart';
+import 'package:crypto_app/logic/states/crypto_list_state.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 

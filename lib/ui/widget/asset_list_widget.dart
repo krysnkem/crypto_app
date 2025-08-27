@@ -1,5 +1,5 @@
-import 'package:archonit_crypto_app/logic/models/crypto_asset.dart';
-import 'package:archonit_crypto_app/ui/widget/asset_list_item_widget.dart';
+import 'package:crypto_app/logic/models/crypto_asset.dart';
+import 'package:crypto_app/ui/widget/asset_list_item_widget.dart';
 import 'package:flutter/material.dart';
 
 class AssetListWidget extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:archonit_crypto_app/core/routing/routing.dart';
+import 'package:crypto_app/core/routing/routing.dart';
 import 'package:flutter/material.dart';
 
 void main() {
