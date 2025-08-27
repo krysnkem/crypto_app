@@ -1,4 +1,4 @@
-# Archonit Crypto App
+# Crypto App
 
 Cryptocurrency listing application with pagination and dynamic color generation.
 
