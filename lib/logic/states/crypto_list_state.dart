@@ -1,4 +1,4 @@
-import 'package:archonit_crypto_app/logic/models/crypto_asset.dart';
+import 'package:crypto_app/logic/models/crypto_asset.dart';
 import 'package:equatable/equatable.dart';
 
 sealed class CryptoListState extends Equatable {

@@ -1,8 +1,8 @@
-import 'package:archonit_crypto_app/core/routing/routing.dart';
-import 'package:archonit_crypto_app/core/secrets/api_key.dart';
-import 'package:archonit_crypto_app/data/repository/coin_cap_repository/coin_cap_repository.dart';
-import 'package:archonit_crypto_app/data/setup_coin_cap_api_client.dart';
-import 'package:archonit_crypto_app/logic/notifiers/crypto_list_cubit.dart';
+import 'package:crypto_app/core/routing/routing.dart';
+import 'package:crypto_app/core/secrets/api_key.dart';
+import 'package:crypto_app/data/repository/coin_cap_repository/coin_cap_repository.dart';
+import 'package:crypto_app/data/setup_coin_cap_api_client.dart';
+import 'package:crypto_app/logic/notifiers/crypto_list_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

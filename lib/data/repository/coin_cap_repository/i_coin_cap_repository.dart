@@ -1,5 +1,5 @@
-import 'package:archonit_crypto_app/data/api/coincap_api_models.dart';
-import 'package:archonit_crypto_app/data/repository/result.dart';
+import 'package:crypto_app/data/api/coincap_api_models.dart';
+import 'package:crypto_app/data/repository/result.dart';
 
 abstract class ICoinCapRepository {
   Future<Result<AssetsListResponse>> getAssetBySlug(String slug);

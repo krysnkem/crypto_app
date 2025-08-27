@@ -1,7 +1,7 @@
-import 'package:archonit_crypto_app/data/api/coincap_api.dart';
-import 'package:archonit_crypto_app/data/repository/coin_cap_repository/i_coin_cap_repository.dart';
-import 'package:archonit_crypto_app/data/repository/result.dart';
-import 'package:archonit_crypto_app/data/repository/safe_call.dart';
+import 'package:crypto_app/data/api/coincap_api.dart';
+import 'package:crypto_app/data/repository/coin_cap_repository/i_coin_cap_repository.dart';
+import 'package:crypto_app/data/repository/result.dart';
+import 'package:crypto_app/data/repository/safe_call.dart';
 
 class CoinCapRepository with SafeCall implements ICoinCapRepository {
   final CoinCapApiClient _apiClient;

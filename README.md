@@ -80,8 +80,8 @@ flutter test
 
 ## State Management Branches
 
-- [`main/vanilla`](https://github.com/krysnkem/archonit_crypto_app/tree/main/vanilla): **ValueNotifier** implementation
-- [`alt/riverpod`](https://github.com/krysnkem/archonit_crypto_app/tree/alt/riverpod): **Riverpod** with NotifierProvider
-- [`alt/bloc-cubit`](https://github.com/krysnkem/archonit_crypto_app/tree/alt/bloc-cubit): **BLoC Cubit** pattern ✅ **(current)**
+- [`main/vanilla`](https://github.com/krysnkem/crypto_app/tree/main/vanilla): **ValueNotifier** implementation
+- [`alt/riverpod`](https://github.com/krysnkem/crypto_app/tree/alt/riverpod): **Riverpod** with NotifierProvider
+- [`alt/bloc-cubit`](https://github.com/krysnkem/crypto_app/tree/alt/bloc-cubit): **BLoC Cubit** pattern ✅ **(current)**
 
 *Each branch implements the same features using different state management approaches.*
