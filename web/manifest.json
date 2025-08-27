@@ -1,6 +1,6 @@
 {
-    "name": "archonit_crypto_app",
-    "short_name": "archonit_crypto_app",
+    "name": "crypto_app",
+    "short_name": "crypto_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

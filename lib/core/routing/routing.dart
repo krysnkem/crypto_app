@@ -1,5 +1,5 @@
-import 'package:archonit_crypto_app/ui/asset_list_page.dart';
-import 'package:archonit_crypto_app/ui/splash_page.dart';
+import 'package:crypto_app/ui/asset_list_page.dart';
+import 'package:crypto_app/ui/splash_page.dart';
 import 'package:flutter/material.dart';
 
 class RoutePath {

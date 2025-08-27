@@ -1,5 +1,5 @@
-import 'package:archonit_crypto_app/core/util/text_styles.dart';
-import 'package:archonit_crypto_app/core/util/ui_constants.dart';
+import 'package:crypto_app/core/util/text_styles.dart';
+import 'package:crypto_app/core/util/ui_constants.dart';
 import 'package:flutter/material.dart';
 
 class AssetListItemWidget extends StatelessWidget {

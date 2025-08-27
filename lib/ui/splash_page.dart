@@ -1,6 +1,6 @@
-import 'package:archonit_crypto_app/core/routing/fade_navigator_extenstion.dart';
-import 'package:archonit_crypto_app/core/routing/routing.dart';
-import 'package:archonit_crypto_app/core/util/pngs.dart';
+import 'package:crypto_app/core/routing/fade_navigator_extenstion.dart';
+import 'package:crypto_app/core/routing/routing.dart';
+import 'package:crypto_app/core/util/pngs.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {

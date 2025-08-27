@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:archonit_crypto_app/data/repository/result.dart';
+import 'package:crypto_app/data/repository/result.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 import 'dart:io'; // for SocketException
